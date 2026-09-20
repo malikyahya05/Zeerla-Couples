@@ -1,0 +1,62 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+    -webkit-text-size-adjust: 100%;
+  }
+
+  body {
+    font-family: 'Jost', system-ui, sans-serif;
+    background-color: #faf7f2;
+    color: #1a3c34;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    overflow-x: hidden;
+  }
+
+  h1, h2, h3, h4 {
+    font-family: 'Cormorant Garamond', Georgia, serif;
+  }
+}
+
+@layer components {
+  .btn-primary {
+    @apply inline-flex items-center justify-center gap-2 rounded-full bg-gold-500 px-8 py-4 text-sm font-medium uppercase tracking-wider text-zeerla-900 transition-all duration-300 hover:bg-gold-400 hover:shadow-lg hover:shadow-gold-500/30 active:scale-[0.98] focus:outline-none focus:ring-2 focus:ring-gold-400 focus:ring-offset-2;
+  }
+
+  .btn-secondary {
+    @apply inline-flex items-center justify-center gap-2 rounded-full border border-zeerla-200 bg-white/80 px-8 py-4 text-sm font-medium uppercase tracking-wider text-zeerla-800 backdrop-blur transition-all duration-300 hover:border-zeerla-400 hover:bg-white active:scale-[0.98] focus:outline-none focus:ring-2 focus:ring-zeerla-300 focus:ring-offset-2;
+  }
+
+  .btn-ghost {
+    @apply inline-flex items-center justify-center gap-2 text-sm font-medium uppercase tracking-wider text-zeerla-700 transition-colors duration-200 hover:text-gold-600;
+  }
+
+  .section-heading {
+    @apply font-serif text-4xl font-medium leading-tight text-zeerla-900 sm:text-5xl;
+  }
+
+  .eyebrow {
+    @apply text-xs font-medium uppercase tracking-[0.25em] text-gold-600;
+  }
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+
+  .reveal {
+    opacity: 0;
+    transform: translateY(24px);
+    transition: opacity 0.7s ease-out, transform 0.7s ease-out;
+  }
+
+  .reveal.is-visible {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
