@@ -3,17 +3,17 @@ import { GOOGLE_MAPS_URL, ADDRESS, HOURS } from '@/lib/constants';
 
 export default function LocationSection() {
   return (
-    <section id="location" className="bg-cream py-20 sm:py-28">
+    <section id="location" className="bg-cream py-14 sm:py-28">
       <div className="mx-auto max-w-7xl px-5 sm:px-8">
-        <div className="grid items-center gap-12 lg:grid-cols-2 lg:gap-16">
+        <div className="grid items-center gap-8 sm:gap-12 lg:grid-cols-2 lg:gap-16">
           {/* Info */}
           <div className="reveal">
             <p className="eyebrow mb-4">Location</p>
-            <h2 className="section-heading mb-6">
+            <h2 className="section-heading mb-5 sm:mb-6">
               Visit Zeerla Spa in Dubai Media City
             </h2>
 
-            <div className="mb-6 space-y-3">
+            <div className="mb-5 space-y-3 sm:mb-6">
               <div className="flex items-start gap-3">
                 <MapPin className="mt-1 h-5 w-5 shrink-0 text-gold-600" />
                 <div>

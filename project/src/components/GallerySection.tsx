@@ -43,9 +43,9 @@ const galleryItems = [
 
 export default function GallerySection() {
   return (
-    <section id="gallery" className="bg-zeerla-50 py-20 sm:py-28">
+    <section id="gallery" className="bg-zeerla-50 py-14 sm:py-28">
       <div className="mx-auto max-w-7xl px-5 sm:px-8">
-        <div className="mb-12 text-center reveal">
+        <div className="mb-8 text-center reveal sm:mb-12">
           <p className="eyebrow mb-4">Gallery</p>
           <h2 className="section-heading">A Look Inside</h2>
         </div>

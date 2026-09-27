@@ -3,7 +3,7 @@ import { BOOKING_URL, WHATSAPP_URL } from '@/lib/constants';
 
 export default function CouplesEscapeSection() {
   return (
-    <section className="relative overflow-hidden bg-zeerla-900 py-20 sm:py-28">
+    <section className="relative overflow-hidden bg-zeerla-900 py-14 sm:py-28">
       {/* Subtle texture overlay */}
       <div className="absolute inset-0 opacity-30">
         <div className="absolute -left-20 top-0 h-72 w-72 rounded-full bg-zeerla-700/40 blur-3xl" />
@@ -15,17 +15,17 @@ export default function CouplesEscapeSection() {
           <p className="mb-4 text-xs font-medium uppercase tracking-[0.25em] text-gold-300">
             For Two
           </p>
-          <h2 className="mb-6 font-serif text-4xl font-medium text-white sm:text-5xl">
+          <h2 className="mb-5 font-serif text-4xl font-medium text-white sm:mb-6 sm:text-5xl">
             Your Couples Escape in Dubai
           </h2>
-          <p className="mb-8 text-base font-light leading-relaxed text-white/75">
+          <p className="mb-6 text-sm font-light leading-relaxed text-white/75 sm:mb-8 sm:text-base">
             Whether you're celebrating something special or simply want some
             time together, enjoy a private Jacuzzi and couples massage
             experience designed just for two.
           </p>
 
           {/* Pricing */}
-          <div className="mb-8 flex flex-col items-center justify-center gap-4 sm:flex-row sm:gap-8">
+          <div className="mb-6 flex flex-col items-center justify-center gap-3 sm:mb-8 sm:flex-row sm:gap-8">
             <div className="rounded-2xl border border-gold-300/30 bg-white/5 px-8 py-4 backdrop-blur-sm">
               <span className="block text-xs font-medium uppercase tracking-wider text-gold-300">
                 90 Minutes

@@ -49,7 +49,7 @@ export default function WhyZeerlaSection() {
               <h3 className="mb-2 font-serif text-xl font-medium text-white">
                 {title}
               </h3>
-              <p className="text-sm font-light leading-relaxed text-white/70">
+              <p className="text-sm font-light leading-relaxed text-white/90">
                 {text}
               </p>
             </div>

@@ -33,16 +33,14 @@ export default function Hero() {
           </p>
 
           {/* Inclusions */}
-          <div className="mb-6 flex flex-wrap items-center gap-x-3 gap-y-2 text-sm font-light text-white/90">
-            <span className="rounded-full border border-gold-300/40 bg-white/10 px-4 py-1.5 backdrop-blur-sm">
+          <div className="mb-6 flex flex-nowrap items-center gap-2 whitespace-nowrap text-xs font-light text-white/90 sm:gap-3 sm:text-sm">
+            <span className="rounded-full border border-gold-300/40 bg-white/10 px-3 py-1.5 backdrop-blur-sm sm:px-4">
               Private Jacuzzi
             </span>
-            <span className="text-gold-300">•</span>
-            <span className="rounded-full border border-gold-300/40 bg-white/10 px-4 py-1.5 backdrop-blur-sm">
+            <span className="rounded-full border border-gold-300/40 bg-white/10 px-3 py-1.5 backdrop-blur-sm sm:px-4">
               Couples Massage
             </span>
-            <span className="text-gold-300">•</span>
-            <span className="rounded-full border border-gold-300/40 bg-white/10 px-4 py-1.5 backdrop-blur-sm">
+            <span className="rounded-full border border-gold-300/40 bg-white/10 px-3 py-1.5 backdrop-blur-sm sm:px-4">
               Private Room
             </span>
           </div>

@@ -6,9 +6,9 @@ export default function FaqSection() {
   const [open, setOpen] = useState<number | null>(0);
 
   return (
-    <section id="faq" className="bg-zeerla-50 py-20 sm:py-28">
+    <section id="faq" className="bg-zeerla-50 py-14 sm:py-28">
       <div className="mx-auto max-w-3xl px-5 sm:px-8">
-        <div className="mb-12 text-center reveal">
+        <div className="mb-8 text-center reveal sm:mb-12">
           <p className="eyebrow mb-4">Questions</p>
           <h2 className="section-heading">Frequently Asked Questions</h2>
         </div>

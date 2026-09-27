@@ -2,16 +2,16 @@ import { SECTION_IMAGES } from '@/lib/constants';
 
 export default function ExperienceSection() {
   return (
-    <section id="experience" className="bg-cream py-20 sm:py-28">
+    <section id="experience" className="bg-cream py-14 sm:py-28">
       <div className="mx-auto max-w-7xl px-5 sm:px-8">
-        <div className="grid items-center gap-12 lg:grid-cols-2 lg:gap-16">
+        <div className="grid items-center gap-8 sm:gap-12 lg:grid-cols-2 lg:gap-16">
           {/* Text */}
           <div className="reveal">
             <p className="eyebrow mb-4">The Experience</p>
-            <h2 className="section-heading mb-6">
+            <h2 className="section-heading mb-5 sm:mb-6">
               A Private Spa Experience for Two
             </h2>
-            <div className="space-y-4 text-base font-light leading-relaxed text-zeerla-700">
+            <div className="space-y-3 text-sm font-light leading-relaxed text-zeerla-700 sm:space-y-4 sm:text-base">
               <p>
                 Take a break from the usual routine and enjoy some quality time
                 together.

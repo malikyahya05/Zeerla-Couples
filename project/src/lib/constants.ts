@@ -1,6 +1,9 @@
 export const BOOKING_URL =
   'https://www.fresha.com/book-now/zeerla-spa-usyuofm2/all-offer?id=552795&pId=516899';
 
+export const REVIEWS_URL =
+  'https://www.fresha.com/a/zeerla-spa-media-city-dubai-media-city-concord-tower-jgzdbahb?reviews=true';
+
 export const WHATSAPP_URL = 'https://wa.me/971502068805';
 
 export const GOOGLE_MAPS_URL = 'https://goo.gl/maps/6RgTrV7U5V21m3QK8';

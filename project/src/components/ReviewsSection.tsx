@@ -1,11 +1,11 @@
 import { Star, Quote } from 'lucide-react';
-import { REVIEWS, BOOKING_URL } from '@/lib/constants';
+import { REVIEWS, REVIEWS_URL } from '@/lib/constants';
 
 export default function ReviewsSection() {
   return (
-    <section id="reviews" className="bg-cream py-20 sm:py-28">
+    <section id="reviews" className="bg-cream py-14 sm:py-28">
       <div className="mx-auto max-w-7xl px-5 sm:px-8">
-        <div className="mb-12 text-center reveal">
+        <div className="mb-8 text-center reveal sm:mb-12">
           <p className="eyebrow mb-4">Reviews</p>
           <h2 className="section-heading mb-4">Loved by Our Guests</h2>
           <div className="flex items-center justify-center gap-2">
@@ -48,14 +48,14 @@ export default function ReviewsSection() {
           ))}
         </div>
 
-        <div className="mt-12 text-center reveal">
+        <div className="mt-8 text-center reveal sm:mt-12">
           <a
-            href={BOOKING_URL}
+            href={REVIEWS_URL}
             target="_blank"
             rel="noopener noreferrer"
             className="btn-primary"
           >
-            See Available Times
+            View All Reviews
           </a>
         </div>
       </div>

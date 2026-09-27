@@ -3,9 +3,9 @@ import { BOOKING_URL, SECTION_IMAGES } from '@/lib/constants';
 
 export default function PackageSection() {
   return (
-    <section id="packages" className="bg-cream py-20 sm:py-28">
+    <section id="packages" className="bg-cream py-14 sm:py-28">
       <div className="mx-auto max-w-7xl px-5 sm:px-8">
-        <div className="mb-12 text-center reveal">
+        <div className="mb-8 text-center reveal sm:mb-12">
           <p className="eyebrow mb-4">Packages</p>
           <h2 className="section-heading">Choose Your Experience</h2>
         </div>
@@ -35,9 +35,6 @@ export default function PackageSection() {
               <h3 className="mb-1 font-serif text-2xl font-medium text-zeerla-900">
                 Couples Experience
               </h3>
-              <p className="mb-4 text-sm font-light text-zeerla-600">
-                Private Jacuzzi + Couples Massage
-              </p>
               <div className="mb-5">
                 <span className="font-serif text-4xl font-semibold text-zeerla-900">
                   AED 640
@@ -47,10 +44,16 @@ export default function PackageSection() {
                   for Two
                 </span>
               </div>
-              <p className="mb-6 text-sm font-light leading-relaxed text-zeerla-600">
-                The perfect escape when you want to relax, reconnect and enjoy
-                something different together.
-              </p>
+              <ul className="mb-6 space-y-2 text-sm font-light text-zeerla-700">
+                <li className="flex items-center gap-2">
+                  <span className="h-1.5 w-1.5 rounded-full bg-gold-500" />
+                  60-minute couples massage
+                </li>
+                <li className="flex items-center gap-2">
+                  <span className="h-1.5 w-1.5 rounded-full bg-gold-500" />
+                  30-minute private Jacuzzi
+                </li>
+              </ul>
               <a
                 href={BOOKING_URL}
                 target="_blank"
@@ -83,9 +86,6 @@ export default function PackageSection() {
               <h3 className="mb-1 font-serif text-2xl font-medium text-zeerla-900">
                 Couples Experience
               </h3>
-              <p className="mb-4 text-sm font-light text-zeerla-600">
-                Private Jacuzzi + Couples Massage
-              </p>
               <div className="mb-5">
                 <span className="font-serif text-4xl font-semibold text-zeerla-900">
                   AED 800
@@ -95,8 +95,19 @@ export default function PackageSection() {
                   for Two
                 </span>
               </div>
-              <p className="mb-6 text-sm font-light leading-relaxed text-zeerla-600">
-                More time to slow down, relax and enjoy your experience together.
+              <ul className="mb-4 space-y-2 text-sm font-light text-zeerla-700">
+                <li className="flex items-center gap-2">
+                  <span className="h-1.5 w-1.5 rounded-full bg-gold-500" />
+                  75-minute couples massage
+                </li>
+                <li className="flex items-center gap-2">
+                  <span className="h-1.5 w-1.5 rounded-full bg-gold-500" />
+                  45-minute private Jacuzzi
+                </li>
+              </ul>
+              <p className="mb-6 text-xs font-light leading-relaxed text-zeerla-500">
+                The 120-minute experience can be customized between massage and
+                Jacuzzi time based on the couple’s preference.
               </p>
               <a
                 href={BOOKING_URL}

@@ -3,7 +3,7 @@ import { BOOKING_URL, WHATSAPP_URL, ADDRESS } from '@/lib/constants';
 
 export default function FinalCta() {
   return (
-    <section className="relative overflow-hidden bg-zeerla-950 py-24 sm:py-32">
+    <section className="relative overflow-hidden bg-zeerla-950 py-16 sm:py-32">
       {/* Background accents */}
       <div className="absolute inset-0">
         <div className="absolute left-1/2 top-0 h-96 w-96 -translate-x-1/2 rounded-full bg-gold-500/10 blur-3xl" />
@@ -42,7 +42,7 @@ export default function FinalCta() {
             </a>
           </div>
 
-          <p className="mt-8 text-sm font-light text-white/50">
+          <p className="mt-6 text-sm font-light text-white/50 sm:mt-8">
             {ADDRESS.line1} — {ADDRESS.line2}
           </p>
         </div>
